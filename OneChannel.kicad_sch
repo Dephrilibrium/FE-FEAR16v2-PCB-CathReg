@@ -4165,6 +4165,17 @@
 		)
 		(uuid "29ea3504-53ab-4930-89ba-735e3c8867e0")
 	)
+	(text "R205 & R210:\nValue needs to be high (100k)\nto damp track-L which seems\nto build an LC-Resonance with\nthe feedbackloop of U202B\nand U204B!"
+		(exclude_from_sim no)
+		(at 251.86 84.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3cd40aab-0073-40b9-b4da-0a6a490bb929")
+	)
 	(text "VSupply\nU-Shunt"
 		(exclude_from_sim no)
 		(at 71.374 171.323 0)
@@ -4277,16 +4288,16 @@
 		)
 		(uuid "897c8b83-0253-44e4-b723-f7146513fbab")
 	)
-	(text "R205 & R210:\nValue needs to be high (100k)\nto damp track-L which seems\nto build an LC-Resonance with\nthe feedbackloop of U202B!"
+	(text "Gain of \"U-FET-Tracker\" should have |G|=1.34\nwith the current voltage-divider:\nV_{Max}   * G_{VDiv}    = V_{Div, Max}\n1500V * 5/1005 = 7.462...V\n\n=> V_{Div, Max}  * |G| = V_{MeasRange}\n=> 7.462...V * 1.34 = 10V (full Measurement-Range)\nDepending on the R-Tolerances, a different value\nfor R213 may be necessary (G = -(R213+RV202)/R209)"
 		(exclude_from_sim no)
-		(at 249.174 82.677 0)
+		(at 204.73 124.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "8b013bca-dabe-496a-87c4-20bfc0f71db4")
+		(uuid "8d6412f1-6cab-4c6b-9c53-1330c3b72ea8")
 	)
 	(text "Reserve\nOpAmp"
 		(exclude_from_sim no)
