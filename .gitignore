@@ -11,7 +11,6 @@ Gerber/
 *.txt
 *.tmp
 *.lck
-\#auto_saved_files\#
 ################################
 
 ### Ignored files (specific) ###
